@@ -48,8 +48,7 @@ const buttonClick = (event: React.MouseEvent<HTMLButtonElement>) => {
           <SideBar categories1 = {categories.slice(0,categories.length /2)} onclick={buttonClick}></SideBar>
         </div>
         
-    
-        <div className="col-4 border border-1 border-dark rounded">
+        <div className="col-4 border border-1 border-dark rounded d-flex align-items-center justify-content-center">
            <h2 id='textContent'>{joke}</h2>
         </div>
 
